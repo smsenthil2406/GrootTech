@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.groot.TCcompare.TC001_HomeSection">
+      <class name="com.groot.compareTC.TC04_Blog">
         <methods>
+          <include name="HomeImage_compare"/>
           <include name="beforeSuite"/>
-          <include name="CompareHome"/>
           <include name="afterSuite"/>
         </methods>
-      </class> <!-- com.groot.TCcompare.TC001_HomeSection -->
+      </class> <!-- com.groot.compareTC.TC04_Blog -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

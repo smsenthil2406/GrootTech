@@ -24,7 +24,7 @@ public class TC03_OpenSource extends BaseClass{
 		    driver.get(baseUrl);
 		    OpenSourcePage OpenSOR = new OpenSourcePage();
 		    OpenSOR.allowCookies(driver).click();
-		    OpenSOR.OPSsection(driver).click();Thread.sleep(7000);
+		    OpenSOR.OPSsection(driver).click();
 		    wait.until(ExpectedConditions.visibilityOfAllElements(OpenSOR.kweb(driver),
 		    		OpenSOR.slack(driver)));
 		    Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE ,500,true).withName("OpenSourcePage").save("C:\\Users\\Senthilnathan\\workspace\\"

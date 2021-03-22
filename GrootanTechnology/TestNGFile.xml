@@ -3,7 +3,7 @@
 
 <suite thread-count="1" verbose="1" name="Groot Test cases Suite" parallel="tests">
          
-  <test name="Groot Test Cases">
+  <test name="Groot Tech testcases">
 	 <classes>
 	 <class name="com.groot.suite1.Testcases.TC001_HomeSection"/>
 	   <class name="com.groot.suite1.Testcases.TC002_ServicesSection"/>

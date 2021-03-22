@@ -15,13 +15,11 @@ import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 public class TC04_Blog extends BaseClass{
  
 
-	@Test(priority = 1, description = "Comparing the screenshots of First suite and Second Suite")
+	@Test(priority = 0, description = "Comparing the screenshots of First suite and Second Suite")
 		public void HomeImage_compare() throws IOException,Exception, InterruptedException{  
 		ExcelSheet ret = new ExcelSheet();
-		BufferedImage expectedImage1 = ImageIO.read(new File ("C:\\Users\\Senthilnathan\\workspace\\"
-				+ "GrootanTechnology\\Screenshots\\Folder1\\BlogPage.png"));
-		BufferedImage actualImage1 = ImageIO.read(new File ("C:\\Users\\Senthilnathan\\workspace\\"
-				+ "GrootanTechnology\\Screenshots\\Folder2\\BlogPage.png"));
+		BufferedImage expectedImage1 = ImageIO.read(new File ("/GrootanTechnology/Screenshots/Folder1/BlogPage.png"));
+		BufferedImage actualImage1 = ImageIO.read(new File ("/GrootanTechnology/Screenshots/Folder2/BlogPage.png"));
 
 		ImageDiffer imgDiff = new ImageDiffer();
 		ImageDiff diff = imgDiff.makeDiff(expectedImage1, actualImage1);

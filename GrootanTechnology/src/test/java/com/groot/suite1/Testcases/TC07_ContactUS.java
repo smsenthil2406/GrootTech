@@ -18,7 +18,6 @@ public class TC07_ContactUS extends BaseClass {
 		ContactUSPage ContactOR = new ContactUSPage();
 		ContactOR.allowCookies(driver).click();
 		ContactOR.contactussection(driver).click();
-		Thread.sleep(7000);
 		TC07_ContactUS.takescreenshot("ContactUSPage", "Folder1");
 		System.out.println(driver.getCurrentUrl());
 		String ExpectedURL = "https://www.grootan.com/careers";
