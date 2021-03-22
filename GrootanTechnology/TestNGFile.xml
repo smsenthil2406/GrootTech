@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Groot Test cases Suite" parallel="tests">
+         
+  <test name="Groot Test Cases">
+	 <classes>
+	 <class name="com.groot.suite1.Testcases.TC001_HomeSection"/>
+	   <class name="com.groot.suite1.Testcases.TC002_ServicesSection"/>
+	   <class name="com.groot.suite1.Testcases.TC03_OpenSource"/>
+	   <class name="com.groot.suite1.Testcases.TC04_Blog"/>
+	   <class name="com.groot.suite1.Testcases.TC05_Team"/>
+	   <class name="com.groot.suite1.Testcases.TC06_Careers"/>
+	   <class name="com.groot.suite1.Testcases.TC07_ContactUS"/>
+	   <class name="com.groot.suite1.Testcases.TC08_TestEngineer"/>
+	   <class name="com.groot.suite1.Testcases.TC09_Compare_CTO_HR"/>
+	 </classes>
+   </test>
+</suite>

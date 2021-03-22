@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test name="TC002_ServicesSection1(failed)" parallel="tests">
+    <classes>
+      <class name="com.groot.suite1.Testcases.TC05_Team">
+        <methods>
+          <include name="CompareImage"/>
+          <include name="FindTestEngineers"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.groot.suite1.Testcases.TC05_Team -->
+    </classes>
+  </test> <!-- TC002_ServicesSection1(failed) -->
+  <test name="TC002_ServicesSection(failed)" parallel="tests">
+    <classes>
+      <class name="com.groot.suite2.Testcases.TC05_Team">
+        <methods>
+          <include name="HomeImage_compare"/>
+          <include name="PageImage"/>
+          <include name="CompareImage"/>
+          <include name="beforeSuite"/>
+          <include name="ServicesSection"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.groot.suite2.Testcases.TC05_Team -->
+      <class name="com.groot.suite2.Testcases.TC06_Careers">
+        <methods>
+          <include name="PageImage"/>
+          <include name="CareersSection"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.groot.suite2.Testcases.TC06_Careers -->
+      <class name="com.groot.suite2.Testcases.TC07_ContactUS">
+        <methods>
+          <include name="CareersSection"/>
+          <include name="PageImage"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.groot.suite2.Testcases.TC07_ContactUS -->
+      <class name="com.groot.suite2.Testcases.TC04_Blog">
+        <methods>
+          <include name="HomeImage_compare"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.groot.suite2.Testcases.TC04_Blog -->
+      <class name="com.groot.suite2.Testcases.TC03_OpenSource">
+        <methods>
+          <include name="HomeImage_compare"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.groot.suite2.Testcases.TC03_OpenSource -->
+      <class name="com.groot.suite2.Testcases.TC001_HomeSection">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="HomeImage_compare"/>
+        </methods>
+      </class> <!-- com.groot.suite2.Testcases.TC001_HomeSection -->
+      <class name="com.groot.suite2.Testcases.TC002_ServicesSection">
+        <methods>
+          <include name="HomeImage_compare"/>
+          <include name="beforeSuite"/>
+          <include name="ServicesSection"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.groot.suite2.Testcases.TC002_ServicesSection -->
+    </classes>
+  </test> <!-- TC002_ServicesSection(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->
